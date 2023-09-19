@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #F8D210;
+    text-shadow: 2px 2px red;
+}
+h2{
+    color: white;
+    font-size: 10px;
+}
+
+form {
+    background-color: #AEAEAE;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"]{
+    background-color: #AEAEAE;
+}
+input[type="text"],
+input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+
+}
+input[type="text"]:hover{
+    background-color: #00bfff;
+}
+input[type="file"]:hover {
+    background-color: #00bfff;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#projects {
+    margin: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7e7ce;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#projects p {
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 500px) {
+    form {
+        max-width: 90%;
+    }
+    #projects {
+        max-width: 90%;
+    }
+}

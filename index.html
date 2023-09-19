@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CONTENT MANAGEMENT TOOL</h1>
+    <form id="projectForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required><br>
+        
+        <label for="document">Document:</label>
+        <input type="file" id="document" accept=".pdf"><br>
+        
+        <label for="images">Images:</label>
+        <input type="file" id="images" multiple accept="image/*"><br>
+        
+        <label for="videos">Videos:</label>
+        <input type="file" id="videos" multiple accept="video/*"><br>
+
+         <!-- <label for="folder">Project Folder:</label>
+        <input type="file" id="folder" directory webkitdirectory mozdirectory msdirectory odirectory multiple><br>
+         -->
+        
+        <button type="submit">Add Project</button>
+    </form>
+    
+    <div id="projects">
+        <!-- Display projects here -->
+    </div>
+
+    <script src="script.js"></script>
+    <h2> &copy; Shah Hussain Ahamed S A</h2>
+</body>
+</html>
